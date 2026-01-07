@@ -7,11 +7,6 @@ import torch
 import folder_paths
 from comfy.cli_args import args
 
-from ..tipo_installer import install_tipo_kgen, install_llama_cpp
-
-install_llama_cpp()
-install_tipo_kgen()
-
 import kgen.models as models
 import kgen.executor.tipo as tipo
 from kgen.executor.tipo import (
